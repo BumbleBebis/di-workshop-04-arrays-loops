@@ -7,12 +7,8 @@ function draw() {
   var x = 10
   var count = 5
 
-  var i = 0
-  while (i < count) {
+  for (var i = 0; i < count; i++) {
     rect(x, 10, 10, 10)
     x = x + 20
-
-    i = i + 1
   }
 }
-
