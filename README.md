@@ -58,7 +58,11 @@ Create a new sketch with the code and check it matched your prediction.
 
 **What's wrong with this code?**
 
+It is just a lot of repetition
+
 **How could we improve it?**
+
+we can implement a loop so we only need to specify the rectangle once
 
 There's a lot of repetition in the code here. Generally, as programmers, we try
 to avoid repetition - often the more code we have, the more space there is for
@@ -149,6 +153,8 @@ x = x + 20
 
 **Write a description for these two lines in here**
 
+a rectangle of 10 by 10 is made, and it moves 20px among the x axis.
+
 ---
 
 ```js
@@ -207,6 +213,8 @@ same bits are there, they've just moved around**.
 
 **Change your code to create a grid of squares instead of a single line. Note:
 you can put a loop in another loop!**
+
+DANNY'S NOTE: If you don't get for and while loops at this point, ask Danny.
 
 **Refactor your code into functions. Try not to have any function longer than
 about 5 lines**
